@@ -5,8 +5,8 @@
       LIS 2360:  Web Application Development
       Lesson 4 - Project #1
 
-      Author: 
-      Date:   
+      Author: Sam Ranscht
+      Date:   09/24/15
 
       Filename: index.htm
    -->
@@ -14,7 +14,7 @@
    <meta name="viewport" content="width=device-width,initial-scale=1.0">
    <title>Lesson 4 - Project #1</title>
    <link rel="stylesheet" href="styles.css" />
-    
+    <script src="modernizr.custom.05819.js"></script>
 </head>
 
 <body>
@@ -23,7 +23,21 @@
    </header>
 
    <article>
-      <h2>High-Speed Internet Plans</h2>     
+      <h2>High-Speed Internet Plans</h2>  
+       
+       <script>
+       //declare & initialize variables for service names
+       var service1Name= "basic";
+       var service2Name= "express";
+       var service3Name= "extreme";
+       var service4Name= "ultimate";
+       //declare & initialize variables for service names
+       var service1Speed= 5;
+       var service2Speed= 25;
+       var service3Speed= 50;
+       var service4Speed= 150;
+          
+       </script>
        
       <table>
          <thead>
@@ -35,30 +49,41 @@
          <tbody>
             <tr>
                <td>
-
-                   
+                   <script>
+                       document.write(Service1Name);
+                   </script> 
                </td>
+ 
                <td>
+                   <script>
+                       document.write(Service1Speed);
+                   </script>
                   
+               </td>
+            </tr>
+            <tr>
+               <td>
+                 <script>
+                       document.write(Service2Name);
+                   </script>
+                   
+               </td>
+               <td>
+               <script>
+                       document.write(Service2Speed);
+                   </script>
                    
                </td>
             </tr>
             <tr>
                <td>
-                 
-                   
-               </td>
-               <td>
-
-                   
-               </td>
-            </tr>
-            <tr>
-               <td>
+                    <script>document.write(Service3Name);
+                        </script>
 
                    
                </td>
                <td>
+                   <script>document.write(Service3Speed);</script>
  
                    
                </td>
@@ -66,11 +91,11 @@
             <tr>
                <td>
   
-                   
+                   <script>document.write(Service4Name);</script>
                </td>
                <td>
 
-                   
+                  <script>document.write(Service4Speed);</script> 
                </td>
             </tr>
              
